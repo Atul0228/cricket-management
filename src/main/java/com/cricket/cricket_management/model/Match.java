@@ -3,6 +3,7 @@ package com.cricket.cricket_management.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "matches") 
 public class Match {
 
     @Id
